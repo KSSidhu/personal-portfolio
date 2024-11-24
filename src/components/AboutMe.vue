@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import GithubMarkIcon from "./icons/GithubMark.vue"
+import EmailIcon from "./icons/EmailIcon.vue"
+import LinkedInIcon from "./icons/LinkedInIcon.vue"
+</script>
+
 <template>
   <header>
     <img alt="Profile" src="../assets/images/profile.JPG" />
@@ -6,7 +12,13 @@
       <h1>Gurkirat Sidhu</h1>
       <h2>Full Stack Developer</h2>
 
-      <h3>📍 Burnaby, BC</h3>
+      <h3>📍 Burnaby, BC, Canada </h3>
+    </div>
+
+    <div class="icons">
+      <GithubMarkIcon />
+      <EmailIcon />
+      <LinkedInIcon />
     </div>
   </header>
 </template>
@@ -28,5 +40,11 @@ header {
   gap: 8px;
   align-items: flex-start;
   flex-direction: column;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
 }
 </style>
