@@ -59,7 +59,9 @@ h3 {
     background: var(--color-background);
     border-radius: 8px;
     width: 50px;
+    top: 0;
     height: 50px;
+    margin-top: 12px;
   }
 
   .item:before {
@@ -67,8 +69,8 @@ h3 {
     border-left: 1px solid var(--color-border);
     position: absolute;
     left: 0;
-    bottom: calc(50% + 25px);
-    height: calc(50% - 25px);
+    bottom: calc(50% - 40px);
+    height: calc(50% - 35px);
   }
 
   .item:after {
@@ -80,9 +82,6 @@ h3 {
     height: calc(50% - 25px);
   }
 
-  .item:first-of-type:before {
-    display: none;
-  }
 
   .item:last-of-type:after {
     display: none;

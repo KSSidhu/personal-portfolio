@@ -8,7 +8,7 @@ const { title, items, color } = defineProps<{
 </script>
 
 <template>
-  <div>
+  <div class="root">
     <h2>{{ title }}</h2>
 
     <div class="tags">
@@ -20,6 +20,12 @@ const { title, items, color } = defineProps<{
 </template>
 
 <style scoped>
+.root {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
 .tags {
   display: flex;
   gap: 8px;

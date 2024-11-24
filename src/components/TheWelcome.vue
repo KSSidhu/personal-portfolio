@@ -14,7 +14,9 @@ import SkillSection from "./skill-list/SkillSection.vue"
     </template>
     <template #heading>About Me</template>
 
-    I'm a Full Stack Developer with 3+ years of experience. With experience specializing in frontend technologies.
+    I'm a Full Stack Developer with 3+ years of experience.
+    <br />
+    Specializing in frontend technologies, but aiming to improve backend skills.
   </ListItem>
 
   <SkillSection />

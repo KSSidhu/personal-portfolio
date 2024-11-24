@@ -10,9 +10,6 @@ const classObject = computed(() => ({
   purple: color === "purple",
   red: color === "red",
 }))
-
-console.log(color)
-// console.log(classObject)
 </script>
 
 <template>

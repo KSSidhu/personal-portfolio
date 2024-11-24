@@ -16,9 +16,17 @@ import LinkedInIcon from "./icons/LinkedInIcon.vue"
     </div>
 
     <div class="icons">
-      <GithubMarkIcon />
-      <EmailIcon />
-      <LinkedInIcon />
+      <a href="https://github.com/KSSidhu" target="_blank">
+        <GithubMarkIcon />
+      </a>
+
+      <a href="mailto:kirat.sidhu.sw@gmail.com">
+        <EmailIcon />
+      </a>
+
+      <a href="https://www.linkedin.com/in/gurkiratsidhu-1805/" target="_blank">
+        <LinkedInIcon />
+      </a>
     </div>
   </header>
 </template>
@@ -50,9 +58,29 @@ h2 {
   font-weight: 500;
 }
 
+a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+a:hover {
+  background-color: transparent;
+  border-radius: 12px;
+}
+
+svg {
+  color: rgb(156 163 175);
+}
+
+svg:hover {
+  color: #fff;
+}
+
 .icons {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 8px;
 }
 </style>
