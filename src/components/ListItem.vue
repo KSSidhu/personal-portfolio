@@ -69,8 +69,8 @@ h3 {
     border-left: 1px solid var(--color-border);
     position: absolute;
     left: 0;
-    bottom: calc(50% - 40px);
-    height: calc(50% - 35px);
+    bottom: calc(50% - 45px);
+    height: calc(50% - 30px);
   }
 
   .item:after {
@@ -78,8 +78,8 @@ h3 {
     border-left: 1px solid var(--color-border);
     position: absolute;
     left: 0;
-    top: calc(50% + 25px);
-    height: calc(50% - 25px);
+    top: calc(50% + 45px);
+    height: calc(50% - 45px);
   }
 
 

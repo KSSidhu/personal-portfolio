@@ -28,4 +28,12 @@ main {
   right: 0;
   left: 40%;
 }
+
+
+@media (max-width: 1024px) {
+  .rightColumn {
+    position: relative;
+    left: 0;
+  }
+}
 </style>

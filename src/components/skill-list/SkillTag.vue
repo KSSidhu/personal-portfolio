@@ -23,6 +23,8 @@ span {
   border-radius: 20px;
   padding: 4px 8px;
   font-weight: 500;
+  display: flex;
+  align-items: center;
 }
 
 .blue {

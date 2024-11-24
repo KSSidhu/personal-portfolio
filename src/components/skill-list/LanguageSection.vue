@@ -3,5 +3,5 @@ import SkillListItem from "./SkillListItem.vue"
 </script>
 
 <template>
-  <SkillListItem title="Languages" :items="['Javascript', 'Typescript']" color="blue" />
+  <SkillListItem title="Languages" :items="['Javascript', 'Typescript', 'Golang']" color="blue" />
 </template>

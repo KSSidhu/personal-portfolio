@@ -3,5 +3,5 @@ import SkillListItem from "./SkillListItem.vue"
 </script>
 
 <template>
-  <SkillListItem title="Backend" :items="['Node.js', 'TypeORM']" color="purple" />
+  <SkillListItem title="Backend" :items="['Node.js', 'GraphQL', 'TypeORM']" color="purple" />
 </template>

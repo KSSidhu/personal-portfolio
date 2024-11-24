@@ -31,5 +31,6 @@ import DatabaseSection from "./DatabaseSection.vue"
   display: flex;
   gap: 12px;
   flex-direction: column;
+  margin-top: 12px;
 }
 </style>

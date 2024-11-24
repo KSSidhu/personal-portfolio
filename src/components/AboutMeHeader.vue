@@ -39,7 +39,7 @@ img {
 }
 
 header {
-  padding: 8%;
+  padding: 4% 10%;
   position: fixed;
   left: 0;
   right: 60%;
@@ -52,6 +52,7 @@ header {
 
 h1 {
   font-weight: 700;
+  font-size: 2.25rem;
 }
 
 h2 {
@@ -82,5 +83,13 @@ svg:hover {
   flex-direction: row;
   align-items: center;
   gap: 8px;
+}
+
+
+@media (max-width: 1024px) {
+  header {
+    padding: 8%;
+    position: relative;
+  }
 }
 </style>
