@@ -1,23 +1,14 @@
 <script setup lang="ts">
 import ListItem from "./ListItem.vue"
-import DocumentationIcon from "./icons/IconDocumentation.vue"
 import EcosystemIcon from "./icons/IconEcosystem.vue"
 import CommunityIcon from "./icons/IconCommunity.vue"
 import SupportIcon from "./icons/IconSupport.vue"
 import SkillSection from "./skill-list/SkillSection.vue"
+import AboutMeSection from "./about-me/AboutMeSection.vue"
 </script>
 
 <template>
-  <ListItem>
-    <template #icon>
-      <DocumentationIcon />
-    </template>
-    <template #heading>About Me</template>
-
-    I'm a Full Stack Developer with 3+ years of experience.
-    <br />
-    Specializing in frontend technologies, but aiming to improve backend skills.
-  </ListItem>
+  <AboutMeSection />
 
   <SkillSection />
 

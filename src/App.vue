@@ -1,15 +1,14 @@
 <script setup lang="ts">
-import AboutMe from "./components/AboutMe.vue"
-import TheWelcome from "./components/TheWelcome.vue"
+import AboutMeHeader from "./components/AboutMeHeader.vue"
+import RightSection from "./components/RightSection.vue"
 </script>
 
 <template>
   <main>
-    <AboutMe />
+    <AboutMeHeader />
 
     <div class="rightColumn">
-      <TheWelcome />
-      <TheWelcome />
+      <RightSection />
     </div>
   </main>
 </template>
