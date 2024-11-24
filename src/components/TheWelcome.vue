@@ -4,7 +4,7 @@ import DocumentationIcon from "./icons/IconDocumentation.vue"
 import EcosystemIcon from "./icons/IconEcosystem.vue"
 import CommunityIcon from "./icons/IconCommunity.vue"
 import SupportIcon from "./icons/IconSupport.vue"
-import SkillSection from "./SkillSection.vue"
+import SkillSection from "./skill-list/SkillSection.vue"
 </script>
 
 <template>

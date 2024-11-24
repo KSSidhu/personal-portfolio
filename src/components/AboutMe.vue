@@ -42,6 +42,14 @@ header {
   flex-direction: column;
 }
 
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 500;
+}
+
 .icons {
   display: flex;
   flex-direction: row;

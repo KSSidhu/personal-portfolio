@@ -34,6 +34,10 @@ i {
   color: var(--color-text);
 }
 
+h1 {
+  font-weight: 700;
+}
+
 h3 {
   font-size: 1.2rem;
   font-weight: 500;
