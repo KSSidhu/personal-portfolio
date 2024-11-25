@@ -81,10 +81,5 @@ h3 {
     top: calc(50% + 45px);
     height: calc(50% - 45px);
   }
-
-
-  .item:last-of-type:after {
-    display: none;
-  }
 }
 </style>
