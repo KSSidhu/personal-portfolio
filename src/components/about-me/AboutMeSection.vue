@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import ListItem from "../ListItem.vue"
-import DocumentationIcon from "../icons/IconDocumentation.vue"
+import ProfileIcon from "../icons/IconProfile.vue"
 </script>
 
 <template>
   <ListItem>
     <template #icon>
-      <DocumentationIcon />
+      <ProfileIcon />
     </template>
     <template #heading>About Me</template>
 
