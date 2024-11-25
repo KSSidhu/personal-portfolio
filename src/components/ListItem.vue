@@ -31,7 +31,7 @@ i {
   width: 32px;
   height: 32px;
 
-  color: var(--color-text);
+  color: var(--vt-c-orange);
 }
 
 h1 {
@@ -55,7 +55,7 @@ h3 {
     top: calc(50% - 25px);
     left: -26px;
     position: absolute;
-    border: 1px solid var(--color-border);
+    border: 1px solid var(--vt-c-mint-green);
     background: var(--color-background);
     border-radius: 8px;
     width: 50px;
@@ -66,7 +66,7 @@ h3 {
 
   .item:before {
     content: " ";
-    border-left: 1px solid var(--color-border);
+    border-left: 1px solid var(--vt-c-mint-green);
     position: absolute;
     left: 0;
     bottom: calc(50% - 45px);
@@ -75,7 +75,7 @@ h3 {
 
   .item:after {
     content: " ";
-    border-left: 1px solid var(--color-border);
+    border-left: 1px solid var(--vt-c-mint-green);
     position: absolute;
     left: 0;
     top: calc(50% + 45px);
