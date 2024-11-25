@@ -5,6 +5,7 @@ import SupportIcon from "./icons/IconSupport.vue"
 import SkillSection from "./skill-list/SkillSection.vue"
 import AboutMeSection from "./about-me/AboutMeSection.vue"
 import ExperienceSection from "./experience/ExperienceSection.vue"
+import EducationSection from "./education/EducationSection.vue"
 </script>
 
 <template>
@@ -13,6 +14,8 @@ import ExperienceSection from "./experience/ExperienceSection.vue"
   <SkillSection />
 
   <ExperienceSection />
+
+  <EducationSection />
 
   <ListItem>
     <template #icon>

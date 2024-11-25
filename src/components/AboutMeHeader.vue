@@ -57,6 +57,7 @@ h1 {
 
 h2 {
   font-weight: 500;
+  color: var(--vt-c-mint-green);
 }
 
 a {
