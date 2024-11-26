@@ -6,7 +6,7 @@ import LinkedInIcon from "./icons/LinkedInIcon.vue"
 
 <template>
   <header>
-    <img alt="Profile" src="../assets/images/profile.JPG" />
+    <img alt="Profile" src="../assets/images/profile.jpg" />
 
     <div>
       <h1>Gurkirat Sidhu</h1>
