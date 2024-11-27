@@ -23,6 +23,7 @@
   justify-content: space-between;
   align-items: center;
   padding-right: 5%;
+  margin-bottom: 12px;
 }
 
 h3 {
@@ -33,7 +34,6 @@ h3 {
   .title {
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 12px;
   }
 }
 </style>
