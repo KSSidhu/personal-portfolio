@@ -28,4 +28,12 @@
 h3 {
   font-weight: 600;
 }
+
+@media (max-width: 1024px) {
+  .title {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
+}
 </style>

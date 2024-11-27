@@ -45,6 +45,13 @@ h3 {
   color: var(--color-heading);
 }
 
+
+@media(max-width: 1024px) {
+  i {
+    margin-top: 12px;
+  }
+}
+
 @media (min-width: 1024px) {
   .item {
     margin-top: 0;
