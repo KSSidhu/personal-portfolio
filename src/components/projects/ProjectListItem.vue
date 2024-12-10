@@ -49,6 +49,7 @@ a {
   width: fit-content;
   background-color: transparent;
   border-radius: 12px;
+  padding: 4px 8px;
 }
 
 a:hover {
