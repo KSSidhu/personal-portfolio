@@ -8,7 +8,9 @@ import ProfileIcon from "../icons/IconProfile.vue"
     <template #icon>
       <ProfileIcon />
     </template>
-    <template #heading>About Me</template>
+    <template #heading>About Me
+      <img src="../icons/Hi.gif" width="30">
+    </template>
 
     <div class="description">
       <p>I'm a Full Stack Developer with 3+ years of experience designing, developing and implementing
