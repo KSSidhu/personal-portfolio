@@ -33,8 +33,8 @@ import LinkedInIcon from "./icons/LinkedInIcon.vue"
 
 <style scoped>
 img {
-  height: 120px;
-  width: 120px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
 }
 
